@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    display: flex;
+}
+.sidebar {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    overflow-x: scroll;
+    left: 20px;
+    top: 100%;
+    
+}
+.content {
+    display: inline-block;
+    width: 500px;
+    height: 200px;
+    overflow: scroll;
+    right: 20px;
+    display: flex;
+}

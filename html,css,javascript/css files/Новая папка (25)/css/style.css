@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #ccc;
+}
+.item a:link {
+    color: rgba(25, 5, 100, 0);
+  }
+.item a:visited {
+    color: #011B3EFF;
+  }
+.item a:hover {
+    color: hotpink;
+    transition: 0.1s;
+  }
+.item a:active {
+    color: blue;
+  }

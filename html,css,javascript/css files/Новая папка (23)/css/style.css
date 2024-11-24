@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.content {
+    background-color: aqua;
+    border: 10px solid black;
+    width: 200px;
+    height: 50px;
+    overflow: auto;
+    display: flex;
+}
+.sidebar {
+    background-color: aqua;
+    border: 10px solid black;
+    width: 200px;
+    height: 50px;
+    overflow: auto;
+    display: flex;  
+}
+.container {
+    display: flex;
+}
+ul li a {
+    display: flex;
+}
+a{
+    display: flex;
+}

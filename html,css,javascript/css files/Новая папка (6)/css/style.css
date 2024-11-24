@@ -1,0 +1,21 @@
+body {
+  background-color: gray;
+}
+* {
+    background-color: rgb(15, 38, 100)  ;
+    border: 100px;
+    padding: 15px; 
+    border-bottom: 90px;
+    border-width: 50%;
+    text-align: center;
+    margin: 10px;
+     
+ }
+ .tugma {
+    background-color: aqua;
+    border-radius: 20px;
+    
+ }
+ .card-body {
+  text-align: center;
+ }

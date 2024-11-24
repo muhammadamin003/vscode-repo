@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &__wrap {
+
+      &--outer {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 100%;
+      }
+
+      &--inner {
+          display: flex;
+          flex-direction: row;
+          width: 33.33%;
+      }
+  }
+}

@@ -1,0 +1,38 @@
+.logo {
+  margin: 1%;
+  height: 0px;
+}
+ul {
+    border-radius: 55px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #001C3CFF;
+    align-items: center;    
+    justify-content: center;
+    margin-left: 290px;
+
+    
+  }
+  li {
+    float: left;
+    
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: gray;
+    display: flow-root;
+    overflow: hidden;
+	transition: 0.9	s;
+	z-index: -4;
+  }

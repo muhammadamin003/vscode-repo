@@ -1,0 +1,18 @@
+body {
+   background-color:gray;
+   box-shadow:black   ;
+  }
+  .email {
+    padding: auto;  
+    margin: 10px;
+    height: 10%;
+    justify-content: center;
+    display: flex;
+  }
+  .a {
+    text-align: center;
+  }
+  .s {
+    margin: 10px;   
+
+  }

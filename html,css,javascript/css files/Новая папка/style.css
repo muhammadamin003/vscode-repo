@@ -1,0 +1,14 @@
+ * {
+    background-color: rgb(73, 73, 50)  ;
+    border: 100px;
+    padding: 15px; 
+    border-bottom: 90px;
+    border-width: 50%;
+    text-align: center;
+    margin: 10px;
+     
+ }
+ .tugma {
+    background-color: aqua;
+    border-radius: 20px;
+ }

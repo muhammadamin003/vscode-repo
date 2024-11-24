@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(250, 238, 238);
+}
+* {
+    border: 100px;
+    text-align: center;
+    
+ }
+ .tugma {
+    background-color: rgb(4, 10, 10);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+ }
+ .card-body {
+  margin: 1px;
+  text-align: center;
+  border: 1;
+
+ }
+ .C {
+  background-color: pink;
+ }
+ .card-group {
+  
+ }
+ .card {
+  border: 10px solid 
+ }
+ .classa {
+  background-color: palevioletred;
+  
+ }
+ .tugm {
+  background-color: #fff;
+  border-radius: 20px;
+ }

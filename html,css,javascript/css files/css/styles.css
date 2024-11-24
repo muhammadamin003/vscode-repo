@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+body {
+	background: #ccc;
+}
+img {
+	width: 100%;
+}
+.container {
+	margin: auto;
+	width: 1200px;
+}
+.news {
+	background: green;
+	display: flex;
+	gap: 20px;
+}
+.news .big {
+	background: red;
+}
+.news .big .name {
+	font-size: 20px;
+	font-weight: 600;
+}
+.news .old .item {
+	display: flex;
+	align-items: center;
+}
+.news .old .item img {
+	width: 120px;
+	display: flex;
+}

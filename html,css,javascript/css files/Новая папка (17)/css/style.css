@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.content {
+  background-color: #471010;
+  border-style: solid;
+}
+.main .sidebar .content{
+  display: flex;
+  border-style: solid;
+  border: 10%;
+  font-size: 10px;
+  flex-direction: column;
+  background-color: #471010;
+}
+.main {
+  background-color: gray;
+  border-style: solid;
+border: 20px;
+display: flex;
+margin: 10px;
+width: 5000px;
+border-collapse: collapse;
+}

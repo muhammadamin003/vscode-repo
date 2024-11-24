@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", system-ui;
+  /* font-family: "Montserrat", system-ui; */
+}
+body {
+  background: #f0f2f5;
+}
+a {
+  color: inherit;
+}
+i.fi {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  margin: auto;
+  width: 1360px;
+}
+/* List */
+ul.list,
+ul.toolbar {
+  display: flex;
+  align-items: center;
+}
+ul.list li a,
+ul.toolbar li a {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.top_bar {
+  display: flex;
+  background: #dce2eb;
+}
+.top_bar .toolbar {
+  margin-left: auto;
+}
+.nav_bar {
+  display: flex;
+  align-items: center;
+}
+.logo a {
+  margin: 0 50px 0 0;
+  display: flex;
+  align-items: center;
+}
+ul.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  float: left;
+}
+ul.menu li a {
+  display: flex;
+  padding: 20px 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  font-weight: 500;
+}
+ul.menu li a:hover {
+  border-bottom-color: #17a755;
+}
+.internet-bank:hover{
+background-color: #17a755;
+transition: 0.5s;
+}
+
+.internet-bank {
+  border-radius: .4rem;
+  background: #FFFFFFFF;
+  width: 100px;
+  height: 30px;
+}
+.a {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  float: right;
+}
+
+.img-letter {
+  display: inline-block;
+}
+.rounded-20 {
+  border-radius: 2rem;
+  background: #ccc;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  display: flex;
+  
+}
